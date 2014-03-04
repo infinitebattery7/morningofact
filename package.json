@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- {
-  "engines": {
-    "node": "0.10.x"
- },
+
  
 }
   "repository": {
@@ -18,6 +15,8 @@
   },
   "author": "Shriyash Jalukar",
   "license": "ISC",
+    "engines": {
+		"node": "0.10.x" },
   "bugs": {
     "url": "https://github.com/infinitebattery7/morningofact/issues"
   },
