@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<title> Morning of the ACT </title>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+<div id="title">
+     <h1> Morning of the ACT </h1>		 
+</div>
+
+<hr/> 
+	 
+<div id="text"
+	<h1> They say that you should read something on the morning of your ACT test day. <br/> Click the button below to be taken to a random article! Good luck on your test! <h1/>
+	
+	
+
+<!-- code from http://stackoverflow.com/questions/18038671/how-can-i-create-a-button-that-links-to-multiple-websites-randomly  -->
+
+<script type="text/javascript">
+    var urls = [
+        "http://www.google.com",
+        'http://www.yahoo.com',
+      
+    ];
+
+    function goSomewhere() {
+        var url = urls[Math.floor(Math.random()*urls.length)];
+        window.location = url; // redirect
+    }
+</script>
+
+<button type="button">
+<a href="#" onClick="goSomewhere(); return false;">Take me to a random article</a> </button>
+<hr/>
+
+<h2> Made by Shriyash Jalukar </h2>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
