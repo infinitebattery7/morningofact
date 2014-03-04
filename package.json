@@ -1,8 +1,8 @@
-   {
+{
   "name": "ACT App",
   "version": "0.0.3",
   "description": "an act app",
-  "main": "aoo.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,12 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/infinitebattery7/morningofact"
+    "url": "https://github.com/heroku/node-js-sample"
   },
   "keywords": [
     "node",
     "heroku"
   ],
-  "author": "Shriyash Jalukar",
-  "license": "BSD"
+  "author": "Mark Pundsack",
+  "license": "BSD",
+  "gitHead": "90fd58e343c29e54fc1d4e19036595500b2bdc21"
 }
