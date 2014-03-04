@@ -1,22 +1,26 @@
-{
-  "name": "ACTApp",
-  "version": "0.0.0",
-  "description": "Morning of the ACT App",
-  "main": "app.js",
+   {
+  "name": "ACT App",
+  "version": "0.0.3",
+  "description": "an act app",
+  "main": "aoo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
-   "dependencies": {
-    "logfmt": "~0.21.0",
-    "express": "~3.4.8"
+  "dependencies": {
+    "express": "~3.4.x"
   },
-  
   "engines": {
-		"node": "0.10.x" },
-
-		
-{
-"author": "Shriyash Jalukar",
-  "license": "ISC"
-   }
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinitebattery7/morningofact"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "Shriyash Jalukar",
+  "license": "BSD"
+}
