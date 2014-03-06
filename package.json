@@ -1,24 +1,26 @@
 {
-  "name": "twicision",
-  "version": "0.9.0",
-  "description": "Using Twitter sentiment analysis to make decisions.",
+  "name": "Morning of the ACT",
+  "version": "0.0.1",
+  "description": "an app meant to be used on the morning of an ACT",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "3.3.4",
-	"twit": "1.1.9",
-	"Sentimental": "0.0.4"
+    "express": "~3.4.x"
   },
   "engines": {
-    "node": "0.10.13",
-    "npm": "1.3.2"
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
   },
   "keywords": [
-    "node"
+    "node",
+    "heroku"
   ],
-  "author": "Amit Mizrahi",
-  "license": "BSD",
-  "gitHead": "f3e5d6c834299e0cdf330ed5222f0b7f238bf16c"
+  "author": "Shriyash Jalukar",
+  "license": "BSD"
 }
